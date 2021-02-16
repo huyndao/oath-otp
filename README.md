@@ -33,10 +33,14 @@ gpg2 -o - -d -q --no-symkey-cache secret.txt.asc | oathtool -b --totp - | xclip 
 ``` 
   
 ## Or using the included **`otp.sh`** script
+### Help
 ```shell
 ~$ ./otp.sh -h
 ./otp.sh /path/to/file.asc
+```
 
+### Example Use
+```shell
 ~$ ./otp.sh otp.txt.asc 
 Enter passphrase
 
