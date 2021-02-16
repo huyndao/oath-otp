@@ -49,3 +49,4 @@ Waiting for selection requests, Control-C to quit
 ## Additional notes about most TOTP implementations
 1. the input secret is `base32` by default
 2. the output is 6 digits OTP by default
+3. the TOTP time-step duration is 30 seconds by default
