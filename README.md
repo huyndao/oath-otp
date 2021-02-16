@@ -1,3 +1,12 @@
+## Requirements
+GNUPG v2
+oathtool
+
+## Install
+```shell
+~# apt install gnupg2 oathtool
+```
+
 ## Encrypt OATH secret with symmetric key
 ```shell
 gpg2 --batch -a -c --passphrase 'passhere' --cipher-algo AES256 --no-symkey-cache secret.txt
@@ -7,7 +16,7 @@ or
 gpg2 -a -c --cipher-algo AES256 --no-symkey-cache secret.txt
 ```
   
-this gives `secret.txt.asc`.  Delete the original `secret.txt` or move it to an encrypted backup drive.
+this gives **`secret.txt.asc`**.  Delete the original **`secret.txt`** or move it to an encrypted backup drive.
 
 ## Decrypt and pipe to OATHTOOL
 ```shell
