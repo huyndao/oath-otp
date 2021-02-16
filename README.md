@@ -1,5 +1,5 @@
 # otp.sh
-Shell script to generate Time Based One Time Password [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm) which is used for 2 Factor Authentication by many services.
+Shell script to generate Time Based One Time Password [(TOTP)](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm) which is used for 2 Factor Authentication by many services.
 
 The below is a guide to safely store the OTP secret and a shell script to generate the TOTP into clipboard for use to authenticate with many online services.
 
