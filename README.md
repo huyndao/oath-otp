@@ -7,7 +7,7 @@ or
 gpg2 -a -c --cipher-algo AES256 --no-symkey-cache secret.txt
 ```
   
-this gives `secret.txt.asc`
+this gives `secret.txt.asc`.  Delete the original `secret.txt` or move it to an encrypted backup drive.
 
 ## Decrypt and pipe to OATHTOOL
 ```shell
