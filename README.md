@@ -6,10 +6,11 @@ The below is a guide to safely store the OTP secret and a shell script to genera
 ## Requirements
 - GNUPG v2
 - oathtool
+- xclip
 
 ## Install
 ```shell
-~# apt install gnupg2 oathtool
+~# apt install gnupg2 oathtool xclip
 ```
 
 ## Encrypt OATH secret with symmetric key
