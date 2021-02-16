@@ -1,6 +1,6 @@
 ## Requirements
-GNUPG v2
-oathtool
+- GNUPG v2
+- oathtool
 
 ## Install
 ```shell
