@@ -14,4 +14,4 @@ fi
 
 pin=$(gpg2 -o - -d -q --no-symkey-cache ${1} | oathtool -b --totp -)
 
-echo $pin | xclip -i -sel clip -r
+echo $pin | timeout 30s xclip -i -sel clip -r -quiet
