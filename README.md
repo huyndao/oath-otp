@@ -47,7 +47,7 @@ Enter passphrase
 
 Passphrase: 
 ```
-Go to page and do Ctrl + v to paste in the OTP
+Go to page and do `Ctrl + v` to paste in the OTP
 
 ## Additional notes about most TOTP implementations
 1. the input secret is `base32` by default
