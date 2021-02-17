@@ -30,7 +30,7 @@ gpg2 -o - -d -q --no-symkey-cache secret.txt.asc | oathtool -b --totp -
 
 or
 
-gpg2 -o - -d -q --no-symkey-cache secret.txt.asc | oathtool -b --totp - | xclip -i -selection pri -quiet -r 
+gpg2 -o - -d -q --no-symkey-cache secret.txt.asc | oathtool -b --totp - | xclip -i -sel clip -r 
 ``` 
   
 ## Or using the included **`otp.sh`** script
@@ -46,10 +46,8 @@ gpg2 -o - -d -q --no-symkey-cache secret.txt.asc | oathtool -b --totp - | xclip 
 Enter passphrase
 
 Passphrase: 
-Waiting for selection requests, Control-C to quit
-  Waiting for selection request number 1
-^C
 ```
+Go to page and do Ctrl + v to paste in the OTP
 
 ## Additional notes about most TOTP implementations
 1. the input secret is `base32` by default
