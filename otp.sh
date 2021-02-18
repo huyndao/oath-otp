@@ -1,12 +1,6 @@
 #!/bin/sh
 
-if [ $# -eq 0 ]
-then
-    echo "$0 /path/to/file.asc"
-    exit 0
-fi
-
-if [ $1 = "-h" -o $1 = "--help" ]  
+if [ $# -eq 0 ] || [ $1 = "-h" -o $1 = "--help" ] 
 then
     echo "$0 /path/to/file.asc"
     exit 0
